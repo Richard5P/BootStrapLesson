@@ -5,36 +5,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whiskey Drop | Taste a new whiskey every month</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
 </head>
 
 <body>
     <!-- Nav Bar-->
     <nav>
-       <div class="navbar navbar-expand-sm navbar-light bg-light" >
-            <a href = "/" class="navbar-brand">Whiskey Drop</a> 
+        <div class="navbar navbar-expand-sm navbar-light bg-light">
+            <a href="/" class="navbar-brand">Whiskey Drop</a>
             <ul class="navbar-nav ms-auto">
                 <li class="active nav-item ms-2">
-                    <a href = "/" class="nav-link">Home</a></li>
+                    <a href="/" class="nav-link">Home</a></li>
                 <li class="nav-item ms-2">
-                    <a href = "" class="nav-link">About</a></li>
-            <!-- hide for non-mobile -->
+                    <a href="" class="nav-link">About</a></li>
+                <!-- hide for non-mobile -->
                 <li class="nav-item ms-2 d-block d-sm-none">
                     <a href="" class="nav-link">Sign In / Sign Up</a></li>
-            </ul> 
+            </ul>
             <!--display for non-mobile only-->
             <div class="d-none d-sm-block">
-                <p class="navbar-text my-auto ms-2"><i>Great whiskey delivered to your door</i></p>  
+                <p class="navbar-text my-auto ms-2"><i>Great whiskey delivered to your door</i></p>
                 <a href="">Sign In / Sign Up</a>
-            </div> 
-       </div>
+            </div>
+        </div>
     </nav>
 
     <article class="container">
+
         <!-- Callout -->
         <div class="row">
             <div class="col-12">
-                <section class="callout">
+                <section class="callout jumbotron">
                     <h1>The finest whiskeys delivered to your doorstep.</h1>
                     <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
                         <s>€19.99</s> <strong><mark>First one is free!</mark></strong></p>
@@ -60,16 +61,32 @@
 
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
-                        <p>- Jane Doe</p>
-                    </blockquote>
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="assets/images/girl-image.png" class="rounded-circle me-3" height="100"
+                                width="100">
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>I've been introduced to more than 10 great international whiskeys I never knew about.
+                                </p>
+                                <p>- Jane Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div> <!-- blockquotes col-->
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>I haven't been sober for months!</p>
-                        <p>- Jane Doe</p>
-                    </blockquote>
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="assets/images/guy-image.png" class="rounded-circle me-3" height="100" width="100">
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>I haven't been sober for months!</p>
+                                <p>- John Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div> <!-- blockquotes col-->
             </div> <!-- blockquotes row-->
         </section>
@@ -89,7 +106,7 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 1</h3>
+                        <h3><i class="fa-solid fa-gift"></i> Feature 1 <span class="badge text-bg-danger">New!</span></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore
                             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -102,7 +119,7 @@
 
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 2</h3>
+                        <h3><i class="fa-solid fa-credit-card"></i> Feature 2</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore
                             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -116,7 +133,7 @@
 
                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="feature">
-                        <h3>Feature 3</h3>
+                        <h3><i class="fa-solid fa-circle-xmark"></i> Feature 3</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore
                             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -155,6 +172,9 @@
         </section>
      /.monthly-favourites-->
     </article>
+
+    <!-- font awsome icons-->
+    <script src="https://kit.fontawesome.com/b471b308cb.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
